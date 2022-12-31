@@ -12,8 +12,6 @@ interface HomeProps {
 export const getStaticProps: GetStaticProps<HomeProps> = async (_context) => {
   const posts = await getAllPost();
 
-  console.log(posts);
-
   return {
     props: {
       posts,
