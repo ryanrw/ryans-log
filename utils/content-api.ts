@@ -11,3 +11,9 @@ export const getAllPost = async () => {
     limit: "all",
   });
 };
+
+export const getPost = async (slug: string) => {
+  return cmsAPI.posts.read({
+    slug,
+  });
+};
