@@ -17,8 +17,9 @@ export const Introduction = () => {
         <Avatar width="60" height="60" src="/avatar/ryan.jpg" />
 
         <Box ml={4}>
-          <Heading mb={2}>Hello, สวัสดีครับ! 👋 I'm Ryan!</Heading>
-          <Text fontSize="2xl">
+          <Heading mb={2}>Hello, สวัสดีครับ! 👋</Heading>
+          <Heading mb={2}>I'm Ryan!</Heading>
+          <Text fontSize="xl">
             This is Ryan's story log where every miserable memory will be logged
             here!
           </Text>

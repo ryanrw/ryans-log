@@ -15,7 +15,7 @@ interface PostListProps {
 
 export const PostList: React.FC<PostListProps> = ({ posts }) => {
   return (
-    <SimpleGrid mt={12} columns={2} spacing="20px">
+    <SimpleGrid mt={12} columns={1} spacing="20px">
       {posts.map((post) => (
         <Card bg="#221b1b" color="#fff" p={4} key={post.id} variant="coffee">
           <CardBody>
