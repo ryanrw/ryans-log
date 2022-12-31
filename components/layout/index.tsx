@@ -16,7 +16,7 @@ export const Layout: React.FC<LayoutProps> = ({ title = "Home", children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Container my={10} maxW="container.lg">
+        <Container py={10} maxW="full" px={96} maxH="100vh" overflowY="scroll">
           {children}
         </Container>
       </main>

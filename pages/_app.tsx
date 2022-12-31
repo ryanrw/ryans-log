@@ -6,8 +6,9 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        width: "100%",
+        width: "100vw",
         height: "100vh",
+        overflowY: "hidden",
         bgGradient: "linear(to-b, #2D2424, #5C3D2E)",
         color: "#FFF",
       },
